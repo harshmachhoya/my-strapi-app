@@ -20,18 +20,10 @@
       "type": "richtext",
       "required": true
     },
-    "contact": {
-      "type": "string"
-    },
-    "photo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.contact-card"
     }
   }
 }

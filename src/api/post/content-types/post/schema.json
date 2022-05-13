@@ -18,11 +18,12 @@
     "author": {
       "type": "string"
     },
-    "slug": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

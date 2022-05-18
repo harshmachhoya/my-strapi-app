@@ -24,6 +24,16 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "seoMetaSocial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta-social"
     }
   }
 }

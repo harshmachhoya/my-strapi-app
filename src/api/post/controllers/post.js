@@ -10,7 +10,6 @@ module.exports = createCoreController('api::post.post', ({ strapi }) => ({
     // Method 3: Replacing a core action
     async findOneBySlug(ctx) {
         const { slug } = ctx.params;
-        const { query } = ctx;
 
         const entity = await strapi.db.query('api::post.post').findOne({
             where: { slug: slug }

@@ -15,7 +15,7 @@
     "@strapi/plugin-i18n": "4.1.8",
     "@strapi/plugin-seo": "^1.7.2",
     "@strapi/plugin-users-permissions": "4.1.8",
-    "@strapi/strapi": "4.1.8",
+    "@strapi/strapi": "4.1.12",
     "pg": "8.6.0",
     "strapi-plugin-navigation": "^2.0.13"
   },
